@@ -1,0 +1,164 @@
+<!--
+This file is part of the pestudio solution (www.winitor.com).
+Usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that this file can be modified when running pestudio.
+-->
+<xml version="1.0" encoding="utf-8" detail="">
+	<indicators>
+		<indicator enable="0" severity="3" id="1001" detail="%s">file &gt; type</indicator>
+		<indicator enable="1" severity="3" id="1002" detail="%i bytes">file &gt; size</indicator>
+		<indicator enable="1" severity="2" id="1003" detail="%.02f%%">overlay &gt; file-ratio</indicator>
+		<indicator enable="1" severity="1" id="1004" detail="%i bytes">optional-header &gt; size</indicator>
+		<indicator enable="1" severity="1" id="1005" detail="%i bytes">file-header &gt; size</indicator>
+		<indicator enable="1" severity="3" id="1006" detail="%i bytes">section &gt; alignment</indicator>
+		<indicator enable="1" severity="1" id="1007" detail="%i bytes">certificate &gt; size</indicator>
+		<indicator enable="1" severity="1" id="1008" detail="%s">file &gt; tooling</indicator>
+		<indicator enable="1" severity="1" id="1009" detail="%s">certificate &gt; suspicious</indicator>
+		<indicator enable="1" severity="3" id="1010" detail="%i bytes">file &gt; alignment</indicator>
+		<indicator enable="1" severity="3" id="1011" detail="%i bytes">certificate &gt; size</indicator>
+		<indicator enable="1" severity="1" id="1012" detail="%s">compiler stamp &gt; certificate stamp</indicator>
+		<indicator enable="1" severity="3" id="1013" detail="%s">rich-header &gt; hash</indicator>
+		<indicator enable="1" severity="3" id="1014" detail="0x%08X">file &gt; image-base</indicator>
+		<indicator enable="1" severity="1" id="1018" detail="0x%08X">rich-header &gt; checksum &gt; invalid</indicator>
+		<indicator enable="1" severity="3" id="1019" detail="0x%08X">rich-header &gt; checksum</indicator>
+		<indicator enable="1" severity="3" id="1020" detail="%s">file &gt; tooling</indicator>
+		<indicator enable="1" severity="3" id="1021" detail="0x%08X">rich-header &gt; offset</indicator>
+		<indicator enable="1" severity="3" id="1023" detail="%s">.NET file</indicator>
+		<indicator enable="1" severity="3" id="1024" detail="%i">.NET &gt; functions &gt; unmanaged &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1025" detail="%s">Injection &gt; technique</indicator>
+		<indicator enable="1" severity="3" id="1026" detail="%s">library &gt; bound</indicator>
+		<indicator enable="1" severity="3" id="1027" detail="%s">file &gt; code-less</indicator>
+		<indicator enable="1" severity="3" id="1033" detail="%i">tls-callback &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1035" detail="%s">entry-point &gt; section &gt; non-executable</indicator>
+		<indicator enable="1" severity="2" id="1036" detail="0x%08X">file &gt; checksum &gt; invalid</indicator>
+		<indicator enable="1" severity="2" id="1038" detail="%s">digital certificate &gt; expired</indicator>
+		<indicator enable="1" severity="3" id="1040" detail="%s">digital certificate</indicator>
+		<indicator enable="1" severity="3" id="1043" detail="%s">resources &gt; manifest</indicator>
+		<indicator enable="1" severity="1" id="1045" detail="%s">entry-point &gt; export</indicator>
+		<indicator enable="1" severity="1" id="1051" detail="%s">Network &gt; run from system swap</indicator>
+		<indicator enable="1" severity="1" id="1052" detail="%s">Removable &gt; run from system swap</indicator>
+		<indicator enable="1" severity="2" id="1055" detail="%s">Visual Basic Virtual Machine (VBVM)</indicator>
+		<indicator enable="1" severity="3" id="1056" detail="%s">file &gt; device-driver</indicator>
+		<indicator enable="1" severity="3" id="1100" detail="%s &gt; %s">security &gt; protection</indicator>
+		<indicator enable="0" severity="3" id="1105" detail="%s">Structured Exception Handling (SEH)</indicator>
+		<indicator enable="0" severity="3" id="1112" detail="%s">Safe Structured Exception Handling (SafeSEH)</indicator>
+		<indicator enable="0" severity="3" id="1113" detail="%i">Exception handler(s) &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1115" detail="0x%08X">dos-header &gt; offset &gt; unusual</indicator>
+		<indicator enable="1" severity="1" id="1120" detail="%i/%i">file &gt; score &gt; virustotal</indicator>
+		<indicator enable="1" severity="2" id="1122" detail="%s">detection &gt; prefered engine</indicator>
+		<indicator enable="1" severity="2" id="1124" detail="%s">mitre &gt; technique</indicator>
+		<indicator enable="1" severity="2" id="1125" detail="%s">mitre &gt; tactic</indicator>
+		<indicator enable="1" severity="1" id="1150" detail="0x%08X">file-header &gt; offset</indicator>
+		<indicator enable="1" severity="3" id="1152" detail="%s">file &gt; debug &gt; symbols</indicator>
+		<indicator enable="1" severity="2" id="1153" detail="%s">section &gt; virtualized</indicator>
+		<indicator enable="1" severity="2" id="1154" detail="%s">debug &gt; GUID</indicator>
+		<indicator enable="1" severity="2" id="1155" detail="%s">debug &gt; path</indicator>
+		<indicator enable="1" severity="3" id="1156" detail="%s">debug &gt; stream &gt; name</indicator>
+		<indicator enable="1" severity="2" id="1157" detail="%i">debug &gt; age</indicator>
+		<indicator enable="1" severity="1" id="1158" detail="%s">debug &gt; format</indicator>
+		<indicator enable="1" severity="1" id="1159" detail="%.02f%%">debug &gt; stream &gt; file-ratio</indicator>
+		<indicator enable="1" severity="1" id="1160" detail="%i bytes">debug &gt; stream &gt; size</indicator>
+		<indicator enable="1" severity="1" id="1203" detail="%i bytes">size-of-code &gt; suspicious</indicator>
+		<indicator enable="0" severity="2" id="1204" detail="0x%08X">base-of-code &gt; suspicious</indicator>
+		<indicator enable="0" severity="2" id="1206" detail="0x%08X">file-alignment &gt; suspicious</indicator>
+		<indicator enable="0" severity="2" id="1207" detail="0x%08X">size-of-image &gt; suspicious</indicator>
+		<indicator enable="1" severity="2" id="1209" detail="0x%08X">size-of-headers &gt; suspicious</indicator>
+		<indicator enable="1" severity="1" id="1210" detail="%i">directories &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1211" detail="0x%08X">entry-point &gt; location &gt; suspicious</indicator>
+		<indicator enable="0" severity="3" id="1215" detail="%.02f%%">sections &gt; file-ratio</indicator>
+		<indicator enable="1" severity="3" id="1220" detail="%.02f%%">resources &gt; file-ratio</indicator>
+		<indicator enable="1" severity="1" id="1222" detail="%s">section &gt; anomaly &gt; executable</indicator>
+		<indicator enable="1" severity="1" id="1223" detail="%s">section &gt; anomaly &gt; writable</indicator>
+		<indicator enable="1" severity="3" id="1224" detail="0x%08X">entry-point &gt; location</indicator>
+		<indicator enable="1" severity="1" id="1225" detail="0x%08X">entry-point &gt; location &gt; suspicious</indicator>
+		<indicator enable="1" severity="3" id="1232" detail="%i">resources &gt; instances &gt; standard</indicator>
+		<indicator enable="0" severity="2" id="1233" detail="%i">resources &gt; languages &gt; count</indicator>
+		<indicator enable="1" severity="3" id="1234" detail="%i">resources &gt; instances &gt; dotnet</indicator>
+		<indicator enable="1" severity="1" id="1236" detail="%s">resource &gt; language &gt; flag</indicator>
+		<indicator enable="1" severity="1" id="1237" detail="%s, %s">resource &gt; invalid</indicator>
+		<indicator enable="0" severity="2" id="1240" detail="%s">manifest &gt; trust information &gt; missing</indicator>
+		<indicator enable="1" severity="3" id="1241" detail="%s">resources &gt; manifest</indicator>
+		<indicator enable="1" severity="1" id="1244" detail="%s.%s, %i bytes">resource &gt; size &gt; suspicious</indicator>
+		<indicator enable="1" severity="1" id="1245" detail="%s">section &gt; name &gt; flag</indicator>
+		<indicator enable="1" severity="1" id="1247" detail="%i">sections &gt; executable &gt; count</indicator>
+		<indicator enable="1" severity="2" id="1251" detail="%s:%s">resource &gt; unknown</indicator>
+		<indicator enable="1" severity="2" id="1252" detail="%i">exports &gt; duplicates</indicator>
+		<indicator enable="1" severity="3" id="1253" detail="%i">exports &gt; count</indicator>
+		<indicator enable="1" severity="2" id="1254" detail="%i">exports &gt; count &gt; forwarded</indicator>
+		<indicator enable="1" severity="2" id="1256" detail="%i">exports &gt; count &gt; ordinals</indicator>
+		<indicator enable="1" severity="2" id="1257" detail="%i">exports &gt; count &gt; gaps</indicator>
+		<indicator enable="1" severity="1" id="1258" detail="%i">exports &gt; count &gt; flag</indicator>
+		<indicator enable="1" severity="2" id="1260" detail="%s">dos-stub &gt; message</indicator>
+		<indicator enable="1" severity="3" id="1262" detail="%i">imports &gt; count</indicator>
+		<indicator enable="1" severity="2" id="1263" detail="%i">imports &gt; name &gt; forwarded</indicator>
+		<indicator enable="1" severity="2" id="1264" detail="%i">imports &gt; anonymous</indicator>
+		<indicator enable="1" severity="1" id="1265" detail="0x%08X">import &gt; address &gt; discrepancy</indicator>
+		<indicator enable="1" severity="1" id="1266" detail="%i">imports &gt; name &gt; flag</indicator>
+		<indicator enable="1" severity="2" id="1267" detail="%i bytes">string &gt; size &gt; suspicious</indicator>
+		<indicator enable="1" severity="1" id="1269" detail="%s">library &gt; flag</indicator>
+		<indicator enable="1" severity="1" id="1274" detail="%s">dos-stub &gt; missing</indicator>
+		<indicator enable="1" severity="3" id="1287" detail="%s">file &gt; subsystem</indicator>
+		<indicator enable="1" severity="3" id="1288" detail="%s">.NET &gt; property &gt; missing</indicator>
+		<indicator enable="1" severity="1" id="1289" detail="%s">.NET &gt; stream &gt; flag</indicator>
+		<indicator enable="1" severity="2" id="1290" detail="stream[%i]">.NET &gt; stream &gt; suspicous</indicator>
+		<indicator enable="1" severity="1" id="1291" detail="%s">.NET &gt; stream &gt; duplicate</indicator>
+		<indicator enable="1" severity="3" id="1293" detail="%s">.NET &gt; file &gt;strongly-named</indicator>
+		<indicator enable="1" severity="3" id="1294" detail="%i">.NET &gt; methods &gt; managed</indicator>
+		<indicator enable="1" severity="3" id="1295" detail="%i">.NET &gt; methods &gt; unmanaged</indicator>
+		<indicator enable="1" severity="3" id="1296" detail="%i">.NET &gt; libraries &gt; unmanaged</indicator>
+		<indicator enable="1" severity="1" id="1297" detail="%s">.NET &gt; file &gt; obfuscated</indicator>
+		<indicator enable="1" severity="1" id="1298" detail="%s">.NET &gt; namespace &gt; flag</indicator>
+		<indicator enable="1" severity="2" id="1299" detail="%s, ratio: %s%%">.NET &gt; stream &gt; file-ratio</indicator>
+		<indicator enable="1" severity="3" id="1300" detail="%s">.NET &gt; stream</indicator>
+		<indicator enable="1" severity="1" id="1301" detail="%s">directory &gt; missing</indicator>
+		<indicator enable="1" severity="2" id="1302" detail="%s">directory &gt; invalid</indicator>
+		<indicator enable="1" severity="3" id="1303" detail="%s">.NET &gt; namespace &gt; custom</indicator>
+		<indicator enable="1" severity="3" id="1304" detail="%i">.NET &gt; resources &gt; instances</indicator>
+		<indicator enable="1" severity="1" id="1305" detail="%s">.NET &gt; resource &gt; flag</indicator>
+		<indicator enable="1" severity="1" id="1306" detail="%i">directories &gt; empty</indicator>
+		<indicator enable="1" severity="2" id="1320" detail="%s">directory &gt; suspicious &gt; timestamp</indicator>
+		<indicator enable="1" severity="2" id="1321" detail="%s">file &gt; compiler &gt; stamp</indicator>
+		<indicator enable="1" severity="1" id="1400" detail="%s">file &gt; privilege &gt; level</indicator>
+		<indicator enable="1" severity="1" id="1401" detail="%s">security &gt; User Interface Privilege Isolation (UIPI)</indicator>
+		<indicator enable="1" severity="3" id="1423" detail="%s">file &gt; os &gt; target</indicator>
+		<indicator enable="1" severity="3" id="1424" detail="%s">file &gt; name &gt; original</indicator>
+		<indicator enable="1" severity="3" id="1425" detail="%i">strings &gt; unicode &gt; dotnet</indicator>
+		<indicator enable="1" severity="3" id="1426" detail="%i">strings &gt; ascii &gt; dotnet</indicator>
+		<indicator enable="0" severity="3" id="1427" detail="%i">strings &gt; unicode</indicator>
+		<indicator enable="0" severity="3" id="1428" detail="%i">strings &gt; ascii</indicator>
+		<indicator enable="0" severity="3" id="1429" detail="%i">strings &gt; ignore</indicator>
+		<indicator enable="1" severity="1" id="1430" detail="%i">strings &gt; flag</indicator>
+		<indicator enable="1" severity="3" id="1431" detail="%i">strings &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1434" detail="%s">URL &gt; pattern</indicator>
+		<indicator enable="1" severity="3" id="1483" detail="%s">file &gt; score &gt; error</indicator>
+		<indicator enable="1" severity="3" id="1485" detail="%i">libraries &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1503" detail="%i bytes">version &gt; size</indicator>
+		<indicator enable="1" severity="1" id="1514" detail="type: %s, location: %s, offset: 0x%08X &gt; scored %i/%i by virustotal">file &gt; embedded</indicator>
+		<indicator enable="1" severity="1" id="1520" detail="%s">file &gt; machine</indicator>
+		<indicator enable="1" severity="1" id="1523" detail="%s">UAC auto-elevation</indicator>
+		<indicator enable="1" severity="2" id="1525" detail="signature: %s, location: %s, offset: 0x%08X, size: %i">file &gt; embedded</indicator>
+		<indicator enable="1" severity="1" id="1590" detail="%i bytes">dos-header &gt; size</indicator>
+		<indicator enable="1" severity="3" id="1601" detail="%i bytes">dos-stub &gt; size</indicator>
+		<indicator enable="1" severity="2" id="1606" detail="%i">sections &gt; count &gt; anomaly </indicator>
+		<indicator enable="1" severity="1" id="1624" detail="%i">regex &gt; pattern(s)</indicator>
+		<indicator enable="0" severity="1" id="1625" detail="%i">sections &gt; unreadable</indicator>
+		<indicator enable="1" severity="1" id="1626" detail="%i">Windows built-in privilege(s) &gt; items</indicator>
+		<indicator enable="1" severity="3" id="1627" detail="%s">file &gt; signature</indicator>
+		<indicator enable="1" severity="1" id="1628" detail="%s">file &gt; signature &gt; flag</indicator>
+		<indicator enable="1" severity="1" id="1629" detail="%s">overlay &gt; file signature &gt; flag</indicator>
+		<indicator enable="1" severity="2" id="1630" detail="%s">resource &gt; file signature &gt; flag</indicator>
+		<indicator enable="1" severity="2" id="1631" detail="%i bytes">overlay &gt; size</indicator>
+		<indicator enable="1" severity="2" id="1632" detail="%.03f">overlay &gt; entropy</indicator>
+		<indicator enable="1" severity="3" id="1633" detail="%s">strings &gt; hint</indicator>
+		<indicator enable="1" severity="3" id="1634" detail="%s">feature &gt; group</indicator>
+		<indicator enable="1" severity="1" id="1635" detail="%i">keyboard &gt; keys</indicator>
+		<indicator enable="1" severity="1" id="1636" detail="%i">file &gt; extensions (Ransomware | Wiper) &gt; count</indicator>
+		<indicator enable="1" severity="1" id="1637" detail="%i">passwords &gt; Brute-forcer</indicator>
+		<indicator enable="1" severity="2" id="1638" detail="%s">overlay &gt; signature &gt; name</indicator>
+		<indicator enable="1" severity="2" id="2213" detail="%s">section &gt; shared</indicator>
+		<indicator enable="1" severity="1" id="2214" detail="%s">section &gt; self-modifying</indicator>
+		<indicator enable="1" severity="2" id="2217" detail="%i">sections &gt; nameless</indicator>
+		<indicator enable="1" severity="1" id="2246" detail="%i">sections &gt; executable</indicator>
+	</indicators>
+</xml>

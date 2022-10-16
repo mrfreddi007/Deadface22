@@ -1,0 +1,32 @@
+> [Oct 12, 2022 22:01:01] CAG - We finally got him!
+< [Oct 12, 2022 22:02:20] DA - Yes... I saw the video.
+< [Oct 12, 2022 22:02:29] DA - ...And as much as I enjoyed watching TheZeal0t get smashed in the face with a shovel...
+< [Oct 12, 2022 22:02:35] DA - ...we have a problem, Charles.
+> [Oct 12, 2022 22:03:01] CAG - What problem?  We brought him to your basement, as you requested.
+< [Oct 12, 2022 22:03:20] DA - Well, Charles... he is not here.
+> [Oct 12, 2022 22:03:39] CAG - ... What?
+< [Oct 12, 2022 22:03:48] DA - That's right.  He's gone.
+> [Oct 12, 2022 22:04:09] CAG - We zip-tied him to the chair, as you requested.
+< [Oct 12, 2022 22:04:30] DA - Yes. I saw that.  But he got loose.
+< [Oct 12, 2022 22:04:45] DA - And not only that, but you left his laptop bag right there...
+> [Oct 12, 2022 22:05:30] CAG - Oh, dear.
+< [Oct 12, 2022 22:05:59] DA - Did you check his bag?
+> [Oct 12, 2022 22:06:48] CAG - We did.  There was just his laptop, a charger, and a USB ethernet adapter.
+< [Oct 12, 2022 22:07:25] DA - Ethernet adapter?  Was it a thick black plastic body about two inches long...
+< [Oct 12, 2022 22:07:30] DA - ... and 3/4 inch thick, with a three-position switch?
+> [Oct 12, 2022 22:07:55] CAG - Yes, that's correct.
+< [Oct 12, 2022 22:08:49] DA - Brilliant.  We have to assume that all of my computers are compromised.
+> [Oct 12, 2022 22:08:55] CAG - Why?
+< [Oct 12, 2022 22:09:29] DA - All of the video was wiped.  If he had his laptop and that tool, he most likely...
+< [Oct 12, 2022 22:09:35] DA - ... hacked any or all of my systems.
+< [Oct 12, 2022 22:09:47] DA - They all have a dead-man switch, but I'm going to assume he got everything.
+< [Oct 12, 2022 22:10:08] DA - You better do the same.
+> [Oct 12, 2022 22:10:57] CAG - Are you sure that is necessary?
+< [Oct 12, 2022 22:11:23] DA - Absolutely.  We are burned.  You better alert your friends at Lytton Labs...
+< [Oct 12, 2022 22:11:39] DA - ... to activate flag{AMENHOTEP IV PROTOCOL}.
+> [Oct 12, 2022 22:11:55] CAG - Understood.
+< [Oct 12, 2022 22:12:49] DA - The minion did a fantastic job of capturing TheZeal0t.  I did capture an ...
+< [Oct 12, 2022 22:12:57] DA - ... image of his laptop hard drive, but it is fully encrypted.  We won't likely...
+< [Oct 12, 2022 22:13:12] DA - ... get much.  Too bad the minion burned her cover for nothing.
+> [Oct 12, 2022 22:13:39] CAG - Yes.  A pity.  She has been such a good minion.
+> [Oct 12, 2022 22:13:57] CAG - Signing out to alert LL
